@@ -9,9 +9,9 @@ mathjax: true
 
 这是Ma Chao大神发表在NIPS 2018上的一篇论文，从代码来看是MDNet的改进版，与CVPR 2018和ECCV 2018的趋势一样，这篇论文也在跟踪框架中使用了Attention，不过与其他论文不同的是，本篇论文的Attention并不是通过在网络加入一个module来学习得到的，而是将BP得到的梯度作为Attention，并将其作为一个Loss函数的正则项来调整网络的训练过程，比较有新意。
 
-论文：https://arxiv.org/pdf/1810.03851.pdf
+论文：[Deep Attentive Tracking via Reciprocative Learning](https://arxiv.org/pdf/1810.03851.pdf)
 
-源码：https://github.com/shipubupt/NIPS2018
+源码：[NIPS2018](https://github.com/shipubupt/NIPS2018)
 
 <!--more-->
 
